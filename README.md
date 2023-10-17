@@ -27,4 +27,4 @@ Create a function that takes a slice of objects that implement the `Drawable` in
 
 ### Exercise 6: Delegation (Composition)
 
-Define a struct called `Calculator` with fields for two numbers and methods for `addition`, `subtraction`, `multiplication`, and `division`. Create another struct called `AdvancedCalculator` that contains a `Calculator` as a field. The `AdvancedCalculator` should have additional methods like square root, power, and logarithm, **but these methods should delegate the basic arithmetic operations to the embedded `Calculator` struct**.
+Define a struct called `Calculator` with fields for two numbers and methods for `addition`, `subtraction`, `multiplication`, and `division`.
